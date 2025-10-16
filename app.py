@@ -45,7 +45,7 @@ except Exception as e:
     st.error(f"Errore nella configurazione dell'API Key. Assicurati di averla inserita correttamente nei 'Secrets' di Streamlit.")
 
 # Inizializza il modello Gemini
-model = genai.GenerativeModel('gemini-1.5-pro-latest')
+model = genai.GenerativeModel('gemini-pro')
 
 # Titolo dell'applicazione web
 st.title("Tutor di Matematica - Prof. Fosca")
